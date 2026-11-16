@@ -1,0 +1,620 @@
+
+/* 1. GENERAL STYLING */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F4EE;
+    color: #171717;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section {
+    padding: 100px 9%;
+}
+
+.accent {
+    color: #244BDB;
+}
+
+.serif-accent {
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.eyebrow {
+    color: #244BDB;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+
+
+/* 2. NAVIGATION BAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 9%;
+    border-bottom: 1px solid #DCD8D0;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+.logo span {
+    color: #244BDB;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-link, .nav-contact {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-contact {
+    color: #244BDB;
+}
+
+.nav-link:hover, .nav-contact:hover {
+    color: #244BDB;
+}
+
+
+/* 3. HERO SECTION */
+
+.hero {
+    padding: 65px 9% 95px;
+}
+
+.hero-topline {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DCD8D0;
+    padding-bottom: 24px;
+    color: #244BDB;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-topline span:last-child {
+    color: #575757;
+}
+
+.hero-title {
+    padding: 45px 0 30px;
+}
+
+.hero-title h1 {
+    font-size: 120px;
+    letter-spacing: -9px;
+    line-height: 0.9;
+    margin: 0;
+}
+
+.hero-title-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.hero-index {
+    color: #244BDB;
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 10%;
+    align-items: start;
+    margin-top: 35px;
+}
+
+.hero-content {
+    max-width: 440px;
+}
+
+.hero-tagline {
+    font-family: "DM Serif Display", serif;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.hero-tagline span {
+    display: block;
+    color: #244BDB;
+    font-style: italic;
+}
+
+.hero-description {
+    color: #575757;
+    margin: 22px 0 25px;
+}
+
+.primary-button {
+    display: inline-block;
+    background-color: #244BDB;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+}
+
+.primary-button:hover {
+    background-color: #1939AD;
+}
+
+.hero-note {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    font-size: 13px;
+}
+
+.hero-note span {
+    color: #575757;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.hero-note a {
+    color: #244BDB;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 570px;
+    justify-self: end;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-image figcaption {
+    margin-top: 12px;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+}
+
+.hero-image figcaption span {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 11px;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    padding-top: 18px;
+    border-top: 1px solid #DCD8D0;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.hero-bottom a {
+    color: #244BDB;
+}
+
+
+/* 4. ABOUT SECTION */
+
+.about-section {
+    background-color: white;
+}
+
+.about-section h2 {
+    font-size: 64px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    margin-top: 40px;
+}
+
+.about-content p {
+    color: #575757;
+}
+
+.about-footnote {
+    margin-top: 38px;
+    font-family: "DM Serif Display", serif;
+    font-size: 21px;
+    font-style: italic;
+}
+
+
+/* 5. WORK AND PROJECTS */
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 40px;
+}
+
+.section-heading h2 {
+    font-size: 72px;
+}
+
+.section-heading p {
+    color: #575757;
+}
+
+.work-card {
+    background-color: white;
+    padding: 45px;
+}
+
+.work-card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-number, .project-status {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.project-status {
+    color: #244BDB;
+}
+
+.work-card h3 {
+    font-size: 90px;
+    margin-top: 42px;
+}
+
+.project-description {
+    max-width: 600px;
+    color: #575757;
+    margin-top: 22px;
+}
+
+.project-details {
+    display: flex;
+    gap: 65px;
+    margin: 35px 0;
+}
+
+.project-details div {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details strong {
+    color: #244BDB;
+    font-size: 44px;
+}
+
+.project-details span {
+    color: #575757;
+    font-size: 13px;
+}
+
+.responsibility-label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.responsibilities {
+    color: #575757;
+    margin-bottom: 24px;
+}
+
+.text-link {
+    color: #244BDB;
+    font-weight: bold;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.previous-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #DCD8D0;
+}
+
+.previous-project h3 {
+    font-size: 30px;
+}
+
+.previous-project p {
+    color: #575757;
+}
+
+
+/* 6. EXPERIENCE */
+
+.experience-section {
+    background-color: white;
+}
+
+.experience-section h2 {
+    font-size: 72px;
+    margin-bottom: 50px;
+}
+
+.experience-item {
+    padding: 30px 0;
+    border-top: 1px solid #DCD8D0;
+    max-width: 800px;
+}
+
+.experience-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #244BDB;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.experience-item h3 {
+    font-size: 26px;
+}
+
+.experience-item p {
+    color: #575757;
+}
+
+
+/* 7. EDUCATION */
+
+.education-section h2 {
+    font-size: 72px;
+    margin-bottom: 45px;
+}
+
+.education-item {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 25px;
+    padding: 26px 0;
+    border-top: 1px solid #DCD8D0;
+}
+
+.education-date {
+    color: #244BDB;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.education-item h3 {
+    font-size: 20px;
+}
+
+.education-detail {
+    color: #575757;
+}
+
+.achievement {
+    color: #244BDB;
+    font-weight: bold;
+}
+
+
+/* 8. CERTIFICATIONS */
+
+.certifications-section {
+    background-color: white;
+}
+
+.certifications-section h2 {
+    margin-bottom: 45px;
+}
+
+.certification-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.certification-list p {
+    padding: 20px 0;
+    border-top: 1px solid #DCD8D0;
+    font-weight: bold;
+}
+
+
+/* 9. CONTACT */
+
+.contact-section {
+    background-color: #171717;
+    color: white;
+}
+
+.contact-section h2 {
+    font-size: 80px;
+}
+
+.contact-section .serif-accent {
+    color: #AFC0FF;
+}
+
+.contact-section > p:not(.eyebrow, .contact-email) {
+    color: #D0D0D0;
+    margin: 28px 0;
+}
+
+.contact-email {
+    margin-top: 24px;
+    font-size: 14px;
+    color: #D0D0D0;
+}
+
+/* ID SELECTOR */
+
+#contact {
+    scroll-margin-top: 20px;
+}
+
+
+/* 10. FOOTER */
+
+.paper-resume {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 9%;
+}
+
+.footer p, .footer a:last-child {
+    font-size: 13px;
+}
+
+.footer a:last-child {
+    color: #244BDB;
+}
+
+
+/* 11. MOBILE VIEW */
+
+@media (max-width: 699px) {
+
+    .section {
+        padding: 65px 7%;
+    }
+
+    .navbar {
+        padding: 12px 7%;
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        order: 3;
+        width: 100%;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 45px 7% 65px;
+    }
+
+    .hero-topline {
+        font-size: 9px;
+    }
+
+    .hero-title h1 {
+        font-size: 52px;
+        letter-spacing: -4px;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .hero-tagline {
+        font-size: 30px;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .hero-bottom {
+        font-size: 9px;
+    }
+
+    .about-section h2,
+    .section-heading h2,
+    .experience-section h2,
+    .education-section h2 {
+        font-size: 40px;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .work-card {
+        padding: 25px;
+    }
+
+    .work-card h3 {
+        font-size: 55px;
+    }
+
+    .project-details {
+        gap: 30px;
+    }
+
+    .previous-project {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .education-item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .certification-list {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-section h2 {
+        font-size: 45px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 25px 7%;
+    }
+}
